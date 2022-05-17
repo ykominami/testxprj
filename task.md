@@ -5,3 +5,8 @@ gantt
   Future task    :               t3, after t2,   5d
   Future task2   :                               3d
 ```
+```mermaid
+flowchart LR
+  id(View) -- User action --> id2(Controller) -- Update --> id1
+  id2(Controller) -- Update --> id3(Model) -- Notify --> id2
+```
