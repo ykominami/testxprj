@@ -20,17 +20,4 @@ journey
     section Go home
       Go downstairs: 5: Me
       Sit down: 5: Me
-Cat
-Me
-Go to work
-Make tea
-Go upstairs
-Do work
-Go home
-Go downstairs
-Sit down
-My working day
-Each user journey is split into sections, these describe the part of the task the user is trying to complete.
-
-Tasks syntax is Task name: <score>: <comma separated list of actors>
 ```
