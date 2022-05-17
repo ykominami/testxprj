@@ -10,3 +10,27 @@ flowchart LR
   id(View) -- User action --> id2(Controller) -- Update --> id1
   id2(Controller) -- Update --> id3(Model) -- Notify --> id2
 ```
+```mermaid
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+Cat
+Me
+Go to work
+Make tea
+Go upstairs
+Do work
+Go home
+Go downstairs
+Sit down
+My working day
+Each user journey is split into sections, these describe the part of the task the user is trying to complete.
+
+Tasks syntax is Task name: <score>: <comma separated list of actors>
+```
