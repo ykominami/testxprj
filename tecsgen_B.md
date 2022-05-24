@@ -31,4 +31,6 @@ graph TD;
   r3259-->ykominami_test_mruby_asp3;
   r3251-->r3259;
 
+  r3261-->ykominami_test_mruby_Makefile;
+  r3260-->r3261;
 ```
