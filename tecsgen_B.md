@@ -25,4 +25,7 @@ graph TD;
   r3212-->branches-ykominami-option-check;
   r3211-->r3212;
 
+  r3244-->branches-ykominami_tokeninfo;
+  r3243-->r3244;
+
 ```
