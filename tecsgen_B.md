@@ -28,4 +28,7 @@ graph TD;
   r3244-->branches-ykominami_tokeninfo;
   r3243-->r3244;
 
+  r3259-->ykominami_test_mruby_asp3;
+  r3251-->r3259;
+
 ```
