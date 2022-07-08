@@ -1,5 +1,6 @@
 akaiakai
 akai kamenno 
+<<<<<<< Updated upstream
 v3
 ZZZZ
 
