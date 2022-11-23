@@ -1,5 +1,6 @@
-name push
-on: workflow_dispatch
+name: push
+on: 
+  workflow_dispatch
 jobs:
   add_text:
     runs-on: ubuntu-latest
