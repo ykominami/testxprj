@@ -15,3 +15,5 @@ jobs:
             git commit -m "generated"
             git push origin HEAD:${GITHUB_RE}; \
           fi
+          echo "GITHUB_ACTOR=${GITHUB_ACTOR}"
+          echo "GITHUB_REF=${GITHUB_REF}"
